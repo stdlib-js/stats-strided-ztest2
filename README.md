@@ -328,9 +328,9 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
 
-[@stdlib/stats/strided/dztest2]: https://github.com/stdlib-js/stats-strided-dztest
+[@stdlib/stats/strided/dztest2]: https://github.com/stdlib-js/stats-strided-dztest2
 
-[@stdlib/stats/strided/sztest2]: https://github.com/stdlib-js/stats-strided-sztest
+[@stdlib/stats/strided/sztest2]: https://github.com/stdlib-js/stats-strided-sztest2
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 

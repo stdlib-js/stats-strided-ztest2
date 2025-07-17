@@ -320,8 +320,6 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-strided-ztest2/main/LICENSE
 
-[variance]: https://en.wikipedia.org/wiki/Variance
-
 [@stdlib/stats/base/ztest/alternatives]: https://github.com/stdlib-js/stats-base-ztest-alternatives
 
 [@stdlib/stats/base/ztest/two-sample/results/float64]: https://github.com/stdlib-js/stats-base-ztest-two-sample-results-float64

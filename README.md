@@ -58,13 +58,18 @@ Here, `μX` and `μY` are the true population means of samples `X` and `Y`, resp
 ## Usage
 
 ```javascript
+import ztest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-ztest2@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-ztest2/tags). For example,
+
+```javascript
 import ztest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-ztest2@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-ztest2@v0.1.0-esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-ztest2@esm/index.mjs';
 ```
 
 #### ztest2( NX, NY, alternative, alpha, diff, sigmax, x, strideX, sigmay, y, strideY, out )
@@ -207,7 +212,7 @@ var bool = ( out === results );
 
 import Results from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two-sample-results-float64@esm/index.mjs';
 import normal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-normal@esm/index.mjs';
-import ztest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-ztest2@v0.1.0-esm/index.mjs';
+import ztest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-ztest2@esm/index.mjs';
 
 var x = normal( 1000, 4.0, 2.0, {
     'dtype': 'generic'

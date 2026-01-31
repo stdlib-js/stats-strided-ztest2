@@ -58,13 +58,18 @@ Here, `μX` and `μY` are the true population means of samples `X` and `Y`, resp
 ## Usage
 
 ```javascript
+import ztest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-ztest2@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-ztest2/tags). For example,
+
+```javascript
 import ztest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-ztest2@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-ztest2@v0.1.0-deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-ztest2@deno/mod.js';
 ```
 
 #### ztest2( NX, NY, alternative, alpha, diff, sigmax, x, strideX, sigmay, y, strideY, out )
@@ -202,7 +207,7 @@ var bool = ( out === results );
 ```javascript
 import Results from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two-sample-results-float64@deno/mod.js';
 import normal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-normal@deno/mod.js';
-import ztest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-ztest2@v0.1.0-deno/mod.js';
+import ztest2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-ztest2@deno/mod.js';
 
 var x = normal( 1000, 4.0, 2.0, {
     'dtype': 'generic'
